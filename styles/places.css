@@ -20,7 +20,7 @@
 }
 
 body {
-    /*animation: 1s ease-out 0s 1 in;*/
+    animation: 1s ease-out 0s 1 in;
 }
 
 a{
@@ -71,6 +71,11 @@ div::after {
                         /*par1 par2 par3 return*/
     grid-template-rows: auto auto auto auto;
     row-gap: 20px;
+}
+
+.header_text {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .dropbtn {
