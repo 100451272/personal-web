@@ -99,9 +99,18 @@ div::after {
     align-items: center;
 }
 
+.return:hover {
+    border: 2px solid black;
+    background-color: rgba(255,255,2550.8);
+}
+
 #return_text {
     margin-left: auto;
     margin-right: auto;
+}
+
+#return_text:hover {
+    color: black;
 }
 
 /*RESPONSIVE*/

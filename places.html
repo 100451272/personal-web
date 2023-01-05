@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/places.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <script src="./scripts/places.js"></script>
+    <title>Locales</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="nav_bar">
+            <img src="./media/img/Logo pequeño 1 png.png" alt="logo pequeño" id="logo">
+            <h1 id="logo_text">MANU ALONSO DJ</h1>
+        </div>
+        <div class="gradient"></div>
+        <div class="main">
+            <div class="li_header">
+                <h3 class="header_text">Locales en los que he trabajado</h3>
+                <div class="dropdown">
+                    <button class="dropbtn">Ordenar por:</button>
+                    <div class="dropdown-content">
+                        <a onclick="SortData('[data-rel]')">Relevancia</a>
+                        <a onclick="SortData('[data-time]')">Fecha ascendente</a>
+                        <a onclick="SortData('[data-time_inv]')">Fecha descendente</a>
+                      </div>
+                </div>
+            </div>
+            <div class="div_list">
+                <ul id="list">
+                    <li class="place" data-rel="2" data-time="1">Pub 21 Grados Daganzo</li>
+                    <li class="place" data-rel="1" data-time="2">Pub Zona Zero</li>
+                    <li class="place" data-rel="1" data-time="3">Restaurante El Hombre Pez</li>
+                    <li class="place" data-rel="2" data-time="4">Bambú Lounge</li>
+                    <li class="place" data-rel="5" data-time="5">Sala Escaparate (Residencia de más de 1 año)</li>
+                    <li class="place" data-rel="2" data-time="6">Tangara the Club</li>
+                    <li class="place" data-rel="1" data-time="7">Restaurante Manhattan</li>
+                    <li class="place" data-rel="5" data-time="8">Teatro Barceló (Sala Scotch y El Cielo)</li>
+                    <li class="place" data-rel="4" data-time="9">Nuba YYoQueSe</li>
+                    <li class="place" data-rel="5" data-time="10">Mombay Nombela (Toledo)</li>
+                    <li class="place" data-rel="2" data-time="11">Bodas en Miravalle</li>
+                    <li class="place" data-rel="4" data-time="12">Fiestas Collado Villalba Pueblo</li>
+                    <li class="place" data-rel="3" data-time="13">Bar Casino Carbonero el Mayor (Segovia)</li>
+                    <li class="place" data-rel="5" data-time="14">Fiestas Collado Villalba</li>
+                    <li class="place" data-rel="3" data-time="15">Proa Club (Valencia)</li>
+                    <li class="place" data-rel="5" data-time="16">Fiestas Galapagar</li>
+                    <li class="place" data-rel="3" data-time="17">Fiestas Cercedilla (Plaza de Toros)</li>
+                    <li class="place" data-rel="4" data-time="18">Fiestas Moralzarzal (Carpa Huerta 33)</li>
+                    <li class="place" data-rel="4" data-time="19">Pub Shamrock Galapagar</li>
+                    <li class="place" data-rel="2" data-time="20">Anónymo Restaurante</li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
