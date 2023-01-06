@@ -73,6 +73,11 @@ div::after {
     row-gap: 20px;
 }
 
+#back {
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
 .header_text {
     font-size: 30px;
     margin-bottom: 10px;
