@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/sessions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <script src="./scripts/sessions.js"></script>
     <title>Mis sesiones</title>
 </head>
 <body>
@@ -14,8 +19,28 @@
         </div>
         <div class="gradient"></div>
         <div class="main">
-            
+            <h2>MIS SESIONES</h2>
+            <div class="list_header">
+                <p id="title_text">TÍTULO</p>
+                <p id="genre_text">GÉNERO</p>
+                <p id="duration_text">DURACIÓN</p>
+            </div>
+            <ul class="list">
+                <li><div class="session" onclick="play_session('01 Mix Discoteca')">
+                    <h3>Mix Discoteca</h3>
+                    <p>REGGAETON</p>
+                    <p>1 h 17 m 31 s</p>
+                </div></li>
+            </ul>
         </div>
+        <div class="gradient_inv"></div>
+        <footer class="audio_player">
+            <h3 id="titulo"></h3>
+            <audio controls class="audio">
+            <source src="" type="audio/wav" id="source">
+            Your browser does not support the audio element.
+            </audio>
+        </footer>
     </div>
 </body>
 </html>
