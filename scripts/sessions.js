@@ -13,6 +13,6 @@ document.addEventListener('keyup', event => {
 
 function play_session(title){
     let audio = document.getElementsByClassName("audio")[0];
-    let path = "./media/audio/sessions/" + title + ".mp3";
+    let path = "https://raw.githubusercontent.com/100451272/personal-web/master/media/audio/Sessions/" + title + ".mp3";
     audio.src = path;
 }
