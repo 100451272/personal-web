@@ -61,13 +61,12 @@ div::after {
 /*GRADIENT*/
 .gradient{
     height: 50px;
-    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5));
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
 /*MAIN*/
 .main{
     padding: 0% 10% 10% 10%;
-    background-color: rgba(0,0,0,0.5);
     display: grid;
                         /*par1 par2 par3 return*/
     grid-template-rows: auto auto auto auto;
