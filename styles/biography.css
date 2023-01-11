@@ -34,7 +34,7 @@ div::after {
 
 .hero{
     width: 100%;
-    background-image: url(../media/img/background.png);
+    background-image: url(../media/img/background2.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -54,7 +54,8 @@ div::after {
 
 #logo_text{
     margin: 0px 0px 0px 10px;
-    font-size: 40px;
+    font-size: 25px;
+    color: rgb(200,25,200)
 }
 
 /*GRADIENT*/
@@ -93,24 +94,24 @@ div::after {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    border: 2px solid white;
-    background-color: rgba(0,0,0,0.8);
+    border: 2px solid rgb(200, 15, 200);
+    background-color: rgba(200,15,200, 0.1);
     display: flex;
     align-items: center;
 }
 
 .return:hover {
-    border: 2px solid black;
-    background-color: rgba(255,255,2550.8);
+    border: 2px solid white;
+    background-color: rgb(200, 15, 200);
+}
+
+.return:hover #return_text {
+    transform: scale(1.05);
 }
 
 #return_text {
     margin-left: auto;
     margin-right: auto;
-}
-
-#return_text:hover {
-    color: black;
 }
 
 /*RESPONSIVE*/
@@ -136,4 +137,7 @@ div::after {
     .col-18 {width: 90%;}
     .col-19 {width: 95%;}
     .col-20 {width: 100%; display: flex; align-items: center;}
+    #logo_text{
+        font-size: 40px;
+    }
   }
