@@ -141,6 +141,7 @@ div::after {
 }
 
 @media screen and (max-width: 900px) {
+    #logo_text{font-size: 25px;}
     #genre_text{display:none}
     #duration_text{display: none;}
     .session p{display: none;}
