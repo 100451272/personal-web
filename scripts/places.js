@@ -1,23 +1,20 @@
 function comparator_time(a, b) {
-    console.log(a, b);
-    if (a.dataset.time < b.dataset.time)
+    if (Number(a.dataset.time) < Number(b.dataset.time))
         return -1;
-    if (a.dataset.time > b.dataset.time)
+    if (Number(a.dataset.time) > Number(b.dataset.time))
         return 1;
     return 0;
 }
 
 function comparator_time_inv(a, b) {
-    console.log(a, b);
-    if (a.dataset.time < b.dataset.time)
+    if (Number(a.dataset.time) < Number(b.dataset.time))
         return 1;
-    if (a.dataset.time > b.dataset.time)
+    if (Number(a.dataset.time) > Number(b.dataset.time))
         return -1;
     return 0;
 }
 
 function comparator_relevance(a, b) {
-    console.log(a, b);
     if (a.dataset.rel < b.dataset.rel)
         return 1;
     if (a.dataset.rel > b.dataset.rel)
