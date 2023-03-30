@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/music.css">
+    <link rel="stylesheet" href="./styles/music_principal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <script src="./scripts/carousel.js" defer></script>
     <script src="./scripts/music.js"></script>
     <title>Mi música</title>
     <link rel="icon" type="image/x-icon" href="./media/img/Logo pequeño 1 png.png">
@@ -22,40 +22,23 @@
             <h1 id="logo_text">MANU ALONSO DJ</h1>
         </a>
         <div class="gradient"></div>
-        <div class="main">
-            <h2>MASHUPS (Click to Play)</h2>
+        <div class="container">
+            <h2>MASHUPS</h2>
         </div>
-        
-    </div>
-    <div class="wrapper">
-        <i id="left" class="fa-solid fa-angle-left"></i>
-        <div class="carousel">
-            <img src="./media/img/COVERS/Blue (Remix) x Ellos.png" alt="img" draggable="false" 
-            onclick="play_song('Blue (Remix) x Ellos - David Guetta x Ceky Viciny (Manu Alonso DJ)')">
-            <img src="./media/img/COVERS/200 Mph.png" alt="img" draggable="false" 
-            onclick="play_song('200 mph (INTRO) - Bad Bunny (Manu Alonso DJ)')">
-            <img src="./media/img/COVERS/Industry Baby.png" alt="img" draggable="false"
-            onclick="play_song('Lil Nas X - INDUSTRY BABY (STAR WARS Open Show) Manu Alonso DJ')">
-            <img src="./media/img/COVERS/La Copa x FFeel This Moment.png" alt="img" draggable="false"
-            onclick="play_song('La Copa x Feel This Moment - Ozuna x Pitbull, Cristina Aguilera (Manu Alonso DJ)')">
-            <img src="./media/img/COVERS/Loca x Loco.png" alt="img" draggable="false"
-            onclick="play_song('Loca x Loco - Khea ft. Duki x Justin Quiles ft. Chimbala (Manu Alonso DJ)')">
-            <img src="./media/img/COVERS/Olha A Explosão.png" alt="img" draggable="false"
-            onclick="play_song('Olha A Explosão (Hype Intro) -Mc Kevinho (Manu Alonso DJ) ')">
-            <img src="./media/img/COVERS/Yo No Voy x Modo Vacilon.png" alt="img" draggable="false"
-            onclick="play_song('Yo No Voy x Modo Vacilon - Morad x Kream (DJ Manu Alonso MASHUP)')">
-            <img src="./media/img/COVERS/Solo de Mi x Castigo.png" alt="img" draggable="false"
-            onclick="play_song('Solo de Mi x Castigo - Bad Bunny, Feid (Manu Alonso DJ)')">
+        <div class="folders">
+            <a href="./music_2020.html"><div class="folder">
+                <img src="./media/img/COVERS/2020.png" class="img_folder">
+            </div></a>
+            <a href="./music_2021.html"><div class="folder">
+                <img src="./media/img/COVERS/2021.png" class="img_folder">
+            </div></a>
+            <a href="./music_2022.html"><div class="folder">
+                <img src="./media/img/COVERS/2022.png" class="img_folder">
+            </div></a>
+            
         </div>
-        <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
-    <div class="audio_player">
-        <h3 id="titulo"></h3>
-        <audio controls class="audio" controls autoplay>
-        <source type="audio/mp3">
-        Your browser does not support the audio element.
-        </audio>
-    </div>
+    
     <a href="./index.html" class="back"><div>
         VOLVER
     </div></a>
