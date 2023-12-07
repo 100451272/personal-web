@@ -1,7 +1,8 @@
 * {
     display: grid;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 
@@ -28,7 +29,7 @@
 }
 
 .folder:hover {
-    scale: 1.1;
+    scale: 1.01;
     border: 2px solid white;
 }
 
